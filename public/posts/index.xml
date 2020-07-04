@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Nacho González</title>
-        <link>http://example.org/posts/</link>
+        <link>https://nachogoca.com/posts/</link>
         <description>Recent content in Posts on Nacho González</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Fri, 03 Jul 2020 19:34:17 -0500</lastBuildDate>
-        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://nachogoca.com/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>About me</title>
-            <link>http://example.org/posts/my-first-post/</link>
+            <link>https://nachogoca.com/posts/my-first-post/</link>
             <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
             
-            <guid>http://example.org/posts/my-first-post/</guid>
+            <guid>https://nachogoca.com/posts/my-first-post/</guid>
             <description>Hi! My name is José Ignacio González Cárdenas. Everybody calls me Nacho.
 I&amp;rsquo;m a software engineer based in Guadalajara, México. I&amp;rsquo;ve worked primarily with services written in Go. I have experience with fast, distributed, fault-tolerant systems. I was invited to participate as a speaker a couple of times in local Go meetups.
 Traveling is one of my main passions. I&amp;rsquo;ve travelled through Mexico, Central Europe and some parts of the US.</description>

@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://nachogoca.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Nacho Gonzalez"
 theme = "hello-friend-ng"
 paginate = 10
 
