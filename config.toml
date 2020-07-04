@@ -29,7 +29,7 @@ paginate = 10
 
   # Uncomment this if you want a portrait on your start page
   [params.portrait]
-    path     = "nachogoca.jpg"
+    path     = "img/nachogoca.jpg"
     alt      = "Portrait"
     maxWidth = "300"
 
