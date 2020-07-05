@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://nachogoca.com/es/posts/my-first-post/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/posts/my-first-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/posts/my-first-post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/es/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/es/posts/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/es/tags/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/es/tags/untagged/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/tags/untagged/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/tags/untagged/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/es/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/es/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/series/"
+                />
+  </url>
+  
+</urlset>

@@ -1,8 +1,9 @@
 baseURL = "https://nachogoca.com/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Nacho Gonzalez"
 theme = "hello-friend-ng"
 paginate = 10
+defaultContentLanguage = "en"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -58,15 +59,26 @@ paginate = 10
     subtitle = "Nacho Gonzalez website"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "home"
-      logoHomeLink = "/"
+  [languages.en.params.logo]
+    logoText = "home"
+    logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
+
+  [languages.es]
+    title = "Nacho González"
+    subtitle = "Sitio web de Nacho Gonzalez"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.es.params.logo]
+    logoText = "home"
+    logoHomeLink = "/"
+ 
+
 
   # And you can even create generic menu
   [[menu.main]]

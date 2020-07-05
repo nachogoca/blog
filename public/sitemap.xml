@@ -1,38 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://nachogoca.com/posts/my-first-post/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/posts/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/tags/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/tags/untagged/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/blog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/series/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://nachogoca.com/en/sitemap.xml</loc>
+		
+	   	<lastmod>2020-07-03T19:34:17-05:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://nachogoca.com/es/sitemap.xml</loc>
+		
+	   	<lastmod>2020-07-03T19:34:17-05:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

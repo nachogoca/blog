@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Nacho González</title>
+        <link>https://nachogoca.com/es/posts/</link>
+        <description>Recent content in Posts on Nacho González</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 03 Jul 2020 19:34:17 -0500</lastBuildDate>
+        <atom:link href="https://nachogoca.com/es/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Acerca de mi</title>
+            <link>https://nachogoca.com/es/posts/my-first-post/</link>
+            <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
+            
+            <guid>https://nachogoca.com/es/posts/my-first-post/</guid>
+            <description>Hola, mi nombre es José Ignacio González Cárdenas, pero todo mundo me dice Nacho.
+Soy un ingeniero de Software que radica en Guadalajara, México. He trabajado principalmente con servicios escritos en Go. Tengo experiencia con sistemas con requisitos de ser rápidos, distribuidos y tolerantes a fallos. He sido invitado a participar un par de ocasiones como expositor en meetups locales de Go.
+Viajar es una de mis mayores pasiones. He viajado en México, Europa Central y algunas partes de los Estados Unidos.</description>
+            <content type="html"><![CDATA[<p>Hola, mi nombre es José Ignacio González Cárdenas, pero todo mundo me dice Nacho.</p>
+<p>Soy un ingeniero de Software que radica en Guadalajara, México. He trabajado principalmente con servicios escritos en Go. Tengo experiencia con sistemas con requisitos de ser rápidos, distribuidos y tolerantes a fallos. He sido invitado a participar un par de ocasiones como expositor en meetups locales de Go.</p>
+<p>Viajar es una de mis mayores pasiones. He viajado en México, Europa Central y algunas partes de los Estados Unidos. Espero con ansias que la pandemia termine para seguir viajando. Me gusta aprender lenguajes. Mi lenguaje nativo es el español, soy proficiente en inglés y se pedir cervezas en alemán.</p>
+<figure>
+    <img src="/img/me-alpsee.jpg"/> <figcaption>
+            <h4>Lago Alpsee, cerca del castillo Neuschwanstein</h4>
+        </figcaption>
+</figure>
+
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
