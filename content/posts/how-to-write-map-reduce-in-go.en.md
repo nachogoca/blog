@@ -14,7 +14,7 @@ tags:
 
 Let's say our job consists of counting words. Yes, in the middle of a pandemic, the world needs
 someone to count words. This a daunting task since there are a lot of books. Therefore we decide
-to write a program to do it for us. Obviusly, in Go, our favorite programming language.
+to write a program to do it for us. Obviously, in Go, our favorite programming language.
 
 After a few minutes we reach a simple solution. Great! Our program is able to receive as arguments
 the filepath(s) of the books to process. It will read the contents of each book sequentialy, and 
@@ -65,7 +65,7 @@ func main() {
 
 ```
  Yeah, we might run into memory issues if one of the books is very
-large, because we load all the content in memory at once, but are satistied with the results in the
+large, because we load all the content in memory at once, but we are satisfied with the results in the
 list of books we were assigned to word-count.
 
 These are the results:
@@ -84,17 +84,17 @@ These are the results:
 
 ```
 
-After seeing the results our client is very satistied, so satisfied that he want us to count all the words
-in the Gutenberg library! Although Go is fast, it's going to take us ages to count all those words. Maybe we
-could do all that counting faster if we do the work in parallel, using a programming model called MapReduce.
+After seeing the results our client is very satisfied, so satisfied that he want us to count all the words
+in the Gutenberg library! Although Go is fast, it's going to take us ages to count all those words if we do the calculations
+sequentially. Maybe we could do all that counting faster if we do the work in parallel, using a programming model called MapReduce.
 
 ## MapReduce
 
 Around 2004, Google had the same problem as us. Well, not exactly word counting but the need to process large amounts
 of raw data, such as crawled documents, web request logs, etc., to compute various kinds of derived data, such an inverted
-indices, very useful for their search capabilities. Most of the computations are simple and straigforward, like word counting.
-However the input data is huge and the computations have to be distributed across hundress or thousands of machines in order
-to finish on time. But a lot of complexity comes from parallelizing the computation, distributing the data and handling failures.
+indices, very useful for their search capabilities. Most of the computations are simple and straightforward.
+But, the input data is huge and the computations have to be distributed across hundreds or thousands of machines in order
+to finish on time. And a lot of complexity comes from parallelizing the computation, distributing the data and handling failures.
 So, in order to hide that complexity from the other engineers, Google researchers designed an abstraction called MapReduce.
 You can read the original paper [here](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf).
 
@@ -127,7 +127,7 @@ Now the input for the reduce process would be each intermediate key and the list
 alpha ["1", "1"]
 ```
 
-Reduce will count all ocurrences of the values, for each key (word). And generate the desired output:
+Reduce will count all occurrences of the values, for each key (word). And generate the desired output:
 
 ```
 alpha "2"
@@ -178,12 +178,20 @@ func Reduce(key string, values []string) string {
 
 Notice how the keys from the intermediate key/value pairs are the input for the Reduce function.
 
+A programmer using a MapReduce library only needs to define the Map and Reduce functions for the problem he's trying to
+solve, and the library will take care of the internal intricacies that applying those functions in a distributed manner.
+Here, we have solved an easy problem, but MapReduce can be used for many other non-trivial [applications](https://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/).
+
 ## Implementation
 
 Great! We have seen so far how would a client use MapReduce through a simple and powerful interface that enables automatic
 parallelization and distribution. It's almost like magic, right? Well, we'll now learn how to implement that magic.
-We'll need a way to distribute the work, ensure that maps and reduces know how to communicate the intermmediate key/value
-pairs, the reduces to generate the ouput we want, and some kind of mechanism to ensure the re-execution of work in case of
-failure, to ensure **fault tolerance**.
+
+We'll need a way to distribute the work, ensure that maps and reduces know how to communicate the intermediate key/value
+pairs between each other, and some kind of mechanism to ensure the re-execution of work in case of a failure, 
+to ensure **fault tolerant** system.
+
+{{< figure src="/img/02-how-to-write-map-reduce/diagram.png" title="MapReduce diagram" >}} 
+
 
 
