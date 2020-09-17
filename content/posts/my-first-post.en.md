@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - aboutme
+  - personal
 ---
 
 Hi! My name is José Ignacio González Cárdenas. Everybody calls me Nacho.

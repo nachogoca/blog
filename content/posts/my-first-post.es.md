@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - aboutme
+  - personal
 ---
 
 Hola, mi nombre es José Ignacio González Cárdenas, pero todo mundo me dice Nacho.

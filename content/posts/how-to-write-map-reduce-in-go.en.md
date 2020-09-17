@@ -1,7 +1,7 @@
 ---
-title: "How to Write a MapReduce in Go"
+title: "How to Write a MapReduce in Go Part 1"
 date: 2020-08-06T22:07:05-05:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
@@ -10,6 +10,8 @@ tags:
   - distributed systems
 ---
 
+In this post we'll learn about what is MapReduce and how we can use it.
+
 ## Problem
 
 Let's say our job consists of counting words. Yes, in the middle of a pandemic, the world needs
@@ -17,7 +19,7 @@ someone to count words. This a daunting task since there are a lot of books. The
 to write a program to do it for us. Obviously, in Go, our favorite programming language.
 
 After a few minutes we reach a simple solution. Great! Our program is able to receive as arguments
-the filepath(s) of the books to process. It will read the contents of each book sequentialy, and 
+the filepath(s) of the books to process. It will read the contents of each book sequentially, and 
 store the word count of that book.
 
 ```go
@@ -182,16 +184,5 @@ A programmer using a MapReduce library only needs to define the Map and Reduce f
 solve, and the library will take care of the internal intricacies that applying those functions in a distributed manner.
 Here, we have solved an easy problem, but MapReduce can be used for many other non-trivial [applications](https://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/).
 
-## Implementation
-
-Great! We have seen so far how would a client use MapReduce through a simple and powerful interface that enables automatic
-parallelization and distribution. It's almost like magic, right? Well, we'll now learn how to implement that magic.
-
-We'll need a way to distribute the work, ensure that maps and reduces know how to communicate the intermediate key/value
-pairs between each other, and some kind of mechanism to ensure the re-execution of work in case of a failure, 
-to ensure **fault tolerant** system.
-
-{{< figure src="/img/02-how-to-write-map-reduce/diagram.png" title="MapReduce diagram" >}} 
-
-
+We'll learn how to implement the MapReduce in the part 2.
 
