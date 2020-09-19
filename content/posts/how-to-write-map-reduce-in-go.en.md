@@ -73,7 +73,12 @@ list of books we were assigned to word-count.
 These are the results:
 
 ```
-> go run simple.go books/pg-being_ernest.txt books/pg-dorian_gray.txt books/pg-frankenstein.txt books/pg-grimm.txt books/pg-huckleberry_finn.txt books/pg-metamorphosis.txt books/pg-sherlock_holmes.txt books/pg-tom_sawyer.txt
+> ls books
+pg-being_ernest.txt  pg-grimm.txt             pg-sherlock_holmes.txt
+pg-dorian_gray.txt   pg-huckleberry_finn.txt  pg-tom_sawyer.txt
+pg-frankenstein.txt  pg-metamorphosis.txt
+
+> go run simple.go books/*
 25528 books/pg-metamorphosis.txt
 108992 books/pg-sherlock_holmes.txt
 77488 books/pg-tom_sawyer.txt
