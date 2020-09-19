@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nachogoca.com/es/tags/aboutme/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/tags/aboutme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/tags/aboutme/"
+                />
+  </url>
+  
+  <url>
     <loc>https://nachogoca.com/es/posts/my-first-post/</loc>
     <lastmod>2020-07-03T19:34:17-05:00</lastmod>
     <xhtml:link
@@ -33,6 +48,21 @@
   </url>
   
   <url>
+    <loc>https://nachogoca.com/es/tags/personal/</loc>
+    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/tags/personal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/tags/personal/"
+                />
+  </url>
+  
+  <url>
     <loc>https://nachogoca.com/es/posts/</loc>
     <lastmod>2020-07-03T19:34:17-05:00</lastmod>
     <xhtml:link
@@ -59,21 +89,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://nachogoca.com/es/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/es/tags/untagged/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nachogoca.com/tags/untagged/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://nachogoca.com/es/tags/untagged/"
                 />
   </url>
   

@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 03 Jul 2020 19:34:17 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 22:07:05 -0500</lastBuildDate>
     
 	<atom:link href="https://nachogoca.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>untagged</title>
-      <link>https://nachogoca.com/tags/untagged/</link>
+      <title>distributed systems</title>
+      <link>https://nachogoca.com/tags/distributed-systems/</link>
+      <pubDate>Thu, 06 Aug 2020 22:07:05 -0500</pubDate>
+      
+      <guid>https://nachogoca.com/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineering</title>
+      <link>https://nachogoca.com/tags/engineering/</link>
+      <pubDate>Thu, 06 Aug 2020 22:07:05 -0500</pubDate>
+      
+      <guid>https://nachogoca.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://nachogoca.com/tags/golang/</link>
+      <pubDate>Thu, 06 Aug 2020 22:07:05 -0500</pubDate>
+      
+      <guid>https://nachogoca.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aboutme</title>
+      <link>https://nachogoca.com/tags/aboutme/</link>
       <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
       
-      <guid>https://nachogoca.com/tags/untagged/</guid>
+      <guid>https://nachogoca.com/tags/aboutme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://nachogoca.com/tags/personal/</link>
+      <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
+      
+      <guid>https://nachogoca.com/tags/personal/</guid>
       <description></description>
     </item>
     

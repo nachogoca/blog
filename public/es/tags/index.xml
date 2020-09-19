@@ -13,11 +13,20 @@
     
     
     <item>
-      <title>untagged</title>
-      <link>https://nachogoca.com/es/tags/untagged/</link>
+      <title>aboutme</title>
+      <link>https://nachogoca.com/es/tags/aboutme/</link>
       <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
       
-      <guid>https://nachogoca.com/es/tags/untagged/</guid>
+      <guid>https://nachogoca.com/es/tags/aboutme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://nachogoca.com/es/tags/personal/</link>
+      <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
+      
+      <guid>https://nachogoca.com/es/tags/personal/</guid>
       <description></description>
     </item>
     

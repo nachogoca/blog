@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nachogoca.com/tags/distributed-systems/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/tags/engineering/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/tags/golang/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/posts/how-to-write-map-reduce-in-go/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/posts/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://nachogoca.com/tags/</loc>
+    <lastmod>2020-08-06T22:07:05-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://nachogoca.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://nachogoca.com/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://nachogoca.com/posts/my-first-post/</loc>
     <lastmod>2020-07-03T19:34:17-05:00</lastmod>
     <xhtml:link
@@ -18,62 +83,32 @@
   </url>
   
   <url>
-    <loc>https://nachogoca.com/</loc>
+    <loc>https://nachogoca.com/tags/aboutme/</loc>
     <lastmod>2020-07-03T19:34:17-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://nachogoca.com/es/"
+                href="https://nachogoca.com/es/tags/aboutme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nachogoca.com/"
+                href="https://nachogoca.com/tags/aboutme/"
                 />
   </url>
   
   <url>
-    <loc>https://nachogoca.com/posts/</loc>
+    <loc>https://nachogoca.com/tags/personal/</loc>
     <lastmod>2020-07-03T19:34:17-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://nachogoca.com/es/posts/"
+                href="https://nachogoca.com/es/tags/personal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://nachogoca.com/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/tags/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://nachogoca.com/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nachogoca.com/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://nachogoca.com/tags/untagged/</loc>
-    <lastmod>2020-07-03T19:34:17-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://nachogoca.com/es/tags/untagged/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://nachogoca.com/tags/untagged/"
+                href="https://nachogoca.com/tags/personal/"
                 />
   </url>
   

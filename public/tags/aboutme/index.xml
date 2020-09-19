@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nacho González</title>
-    <link>https://nachogoca.com/</link>
-    <description>Recent content on Nacho González</description>
+    <title>aboutme on Nacho González</title>
+    <link>https://nachogoca.com/tags/aboutme/</link>
+    <description>Recent content in aboutme on Nacho González</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 06 Aug 2020 22:07:05 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 19:34:17 -0500</lastBuildDate>
     
-	<atom:link href="https://nachogoca.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nachogoca.com/tags/aboutme/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to Write a MapReduce in Go Part 1</title>
-      <link>https://nachogoca.com/posts/how-to-write-map-reduce-in-go/</link>
-      <pubDate>Thu, 06 Aug 2020 22:07:05 -0500</pubDate>
-      
-      <guid>https://nachogoca.com/posts/how-to-write-map-reduce-in-go/</guid>
-      <description>In this post we&amp;rsquo;ll learn about what is MapReduce and how we can use it.
-Problem Let&amp;rsquo;s say our job consists of counting words. Yes, in the middle of a pandemic, the world needs someone to count words. This a daunting task since there are a lot of books. Therefore we decide to write a program to do it for us. Obviously, in Go, our favorite programming language.
-After a few minutes we reach a simple solution.</description>
-    </item>
     
     <item>
       <title>About me</title>

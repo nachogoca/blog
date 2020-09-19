@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aboutme on Nacho González</title>
+    <link>https://nachogoca.com/es/tags/aboutme/</link>
+    <description>Recent content in aboutme on Nacho González</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 03 Jul 2020 19:34:17 -0500</lastBuildDate>
+    
+	<atom:link href="https://nachogoca.com/es/tags/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acerca de mi</title>
+      <link>https://nachogoca.com/es/posts/my-first-post/</link>
+      <pubDate>Fri, 03 Jul 2020 19:34:17 -0500</pubDate>
+      
+      <guid>https://nachogoca.com/es/posts/my-first-post/</guid>
+      <description>Hola, mi nombre es José Ignacio González Cárdenas, pero todo mundo me dice Nacho.
+Soy un ingeniero de Software que radica en Guadalajara, México. He trabajado principalmente con servicios escritos en Go. Tengo experiencia con sistemas con requisitos de ser rápidos, distribuidos y tolerantes a fallos. He sido invitado a participar un par de ocasiones como expositor en meetups locales de Go.
+Viajar es una de mis mayores pasiones. He viajado en México, Europa Central y algunas partes de los Estados Unidos.</description>
+    </item>
+    
+  </channel>
+</rss>
